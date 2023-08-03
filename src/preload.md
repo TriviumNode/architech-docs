@@ -44,7 +44,7 @@ interface Trait {
   value: string;
 }
 ```
-| :memo:        All fields are optional |
+| :memo:        Most fields are optional |
 |---------------------------------------|
 
 | Field | Type | Description |
@@ -74,3 +74,9 @@ If you uploaded a JSON: This step is optional if the image URL was included in t
 Once metadata and all images have been selected, the Preload button will be available. 
 
 Be aware that it may take several minutes for your images to upload after clicking Preload.
+
+## Token IDs
+
+Token ID's are generated automaticlly in ascending order. The first token minted will be Token ID 1, etc.
+
+Keep this in mind when creating your metadata, naming an NFT `My NFT #2` won't have Token ID 2.
