@@ -45,7 +45,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            // 'using-vue',
+            'preload',
             'contracts',
           ]
         }
