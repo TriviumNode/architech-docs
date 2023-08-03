@@ -1,0 +1,19 @@
+{
+  "name": "architech-docs",
+  "version": "0.0.1",
+  "description": "Documentation and resources for Architech",
+  "main": "index.js",
+  "authors": {
+    "name": "Architech",
+    "email": "info@trivium.network"
+  },
+  "repository": "/architech-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
