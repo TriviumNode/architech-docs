@@ -21,7 +21,11 @@ When uploading metadata with a CSV you can specify the following metadata fields
 
 Download the template [here](https://alpha.architech.zone/architech-template.json) 
 
-JSON files are useful for power users that want to generate their metadata preogramatically. JSON files can specify any field in the CW721 metadata spec.
+JSON files are useful for power users that want to generate their metadata preogramatically. JSON files can specify any field in the CW721 metadata spec. 
+
+Your JSON file should contain an array of metadata objects. If you are uploading your NFT images through Architech, each metadata object should contain an additional field `file_name` with the name of the image file for that NFT. E.g. `2.png`
+
+Each metadata field is detailed below.
 
 ```js
 interface ArchitechMetadata {
